@@ -5,13 +5,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC011_Loginwith_ROCAUser">
+      <class name="testCases.TC012_InvestigateMBC">
         <methods>
-          <include name="Verify_Login_ROCAUser"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="Verify_TransferShares"/>
         </methods>
-      </class> <!-- testCases.TC011_Loginwith_ROCAUser -->
+      </class> <!-- testCases.TC012_InvestigateMBC -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
