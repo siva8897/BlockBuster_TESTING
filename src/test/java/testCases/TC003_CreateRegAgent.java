@@ -10,10 +10,10 @@ import pageObjects.CreateRegAgent;
 import pageObjects.LoginPage;
 import pageObjects.RegisterMBC;
 
-@Ignore
+
 public class TC003_CreateRegAgent extends BaseClass {
 
-	
+	@Ignore
 	@Test
 	public void Verfiy_CreateRegAgent() throws Exception {
 

@@ -24,7 +24,7 @@ import org.testng.annotations.Parameters;
 import com.beust.jcommander.Parameter;
 
 public class BaseClass {
-	public WebDriver driver;
+	public static WebDriver driver;
 
 	@BeforeClass
 
@@ -64,7 +64,7 @@ public class BaseClass {
 	@AfterClass
 	public void tearDown() {
 
-		//driver.quit();
+		driver.quit();
 
 	}
 

@@ -14,7 +14,7 @@ public class TC002_RegisterMBC extends BaseClass{
 
 	
 
-	@Ignore
+@Ignore
 	@Test
 	public void Verify_RegisterMBC() throws Exception {
 		
