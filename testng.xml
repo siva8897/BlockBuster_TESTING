@@ -24,6 +24,7 @@
 			<class name="testCases.TC011_Loginwith_ROCAUser"/>
 			<class name="testCases.TC012_InvestigateMBC"/>
 			<class name="testCases.TC013_CreateRAUser"/>
+			<class name="testCases.TC014_CreateROCAUser"/>
 			
 
 
