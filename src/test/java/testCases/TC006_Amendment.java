@@ -20,7 +20,7 @@ public class TC006_Amendment extends BaseClass{
 	public AnnualReturn annualreturn;
 	
 	@Ignore
-    @Test
+    @Test(groups="regression")
 	public void verify_Amendment() throws Exception {
 		
 	    try {

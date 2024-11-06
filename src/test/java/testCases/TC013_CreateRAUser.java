@@ -8,8 +8,9 @@ import pageObjects.CreateRAUser;
 import pageObjects.CreateRegAgent;
 import pageObjects.LoginPage;
 import pageObjects.RegisterMBC;
-@Ignore
+
 public class TC013_CreateRAUser extends BaseClass{
+	@Ignore
 	@Test
 	public void verify_CreateRAUser() {
 	

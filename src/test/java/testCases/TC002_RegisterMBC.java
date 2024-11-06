@@ -15,7 +15,7 @@ public class TC002_RegisterMBC extends BaseClass{
 	
 
 @Ignore
-	@Test
+	@Test(groups = {"smoke"})
 	public void Verify_RegisterMBC() throws Exception {
 		
 		//RegisterMBC Page

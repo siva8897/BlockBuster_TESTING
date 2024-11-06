@@ -15,7 +15,7 @@ public class TC004_ExtensionofTime extends BaseClass {
 
 	
 	@Ignore
-	@Test
+	@Test(groups="regression")
 
 	public void Verify_ExtensionofTime() throws Exception {
 		

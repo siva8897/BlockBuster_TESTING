@@ -8,13 +8,6 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC005_AnnualReturn">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="verify_AnnualReturn"/>
-        </methods>
-      </class> <!-- testCases.TC005_AnnualReturn -->
       <class name="testCases.TC012_InvestigateMBC">
         <methods>
           <include name="setup"/>
@@ -22,19 +15,19 @@
           <include name="Verify_TransferShares"/>
         </methods>
       </class> <!-- testCases.TC012_InvestigateMBC -->
-      <class name="testCases.TC008_SearchMicroBusinessCompany">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="verify_SearchMicroBusinessCompany"/>
-        </methods>
-      </class> <!-- testCases.TC008_SearchMicroBusinessCompany -->
     </classes>
   </test> <!-- chromeTest(failed) -->
   <test thread-count="5" name="edgeTest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
     <classes>
+      <class name="testCases.TC004_ExtensionofTime">
+        <methods>
+          <include name="setup"/>
+          <include name="Verify_ExtensionofTime"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC004_ExtensionofTime -->
       <class name="testCases.TC012_InvestigateMBC">
         <methods>
           <include name="setup"/>
@@ -42,12 +35,26 @@
           <include name="Verify_TransferShares"/>
         </methods>
       </class> <!-- testCases.TC012_InvestigateMBC -->
+      <class name="testCases.TC003_CreateRegAgent">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Verfiy_CreateRegAgent"/>
+        </methods>
+      </class> <!-- testCases.TC003_CreateRegAgent -->
     </classes>
   </test> <!-- edgeTest(failed) -->
   <test thread-count="5" name="firefoxTest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="firefox"/>
     <classes>
+      <class name="testCases.TC015_ModifyROCAUser">
+        <methods>
+          <include name="setup"/>
+          <include name="VerifyModifyROCAUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC015_ModifyROCAUser -->
       <class name="testCases.TC012_InvestigateMBC">
         <methods>
           <include name="setup"/>

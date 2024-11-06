@@ -14,7 +14,7 @@ import pageObjects.RegisterMBC;
 public class TC003_CreateRegAgent extends BaseClass {
 
 	@Ignore
-	@Test
+	@Test(groups="smoke")
 	public void Verfiy_CreateRegAgent() throws Exception {
 
 		// Create Regiester Agent Page

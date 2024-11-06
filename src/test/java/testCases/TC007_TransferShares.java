@@ -20,7 +20,7 @@ public class TC007_TransferShares extends BaseClass {
 	public Amendment amendment;
 
 @Ignore
-	@Test
+	@Test(groups="smoke")
 	public void verify_TransferShares() throws Exception {
 
 		try {

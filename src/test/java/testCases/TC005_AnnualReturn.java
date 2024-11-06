@@ -15,7 +15,7 @@ public class TC005_AnnualReturn extends BaseClass {
 
 	public RegisterMBC regMBC;
 	@Ignore
-	@Test
+	@Test(groups ="smoke")
 	public void verify_AnnualReturn() throws Exception {
 
 		try {

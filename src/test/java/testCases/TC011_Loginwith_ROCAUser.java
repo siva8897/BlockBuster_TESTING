@@ -5,8 +5,10 @@ import org.testng.annotations.Test;
 
 import pageObjects.LoginPage;
 import pageObjects.LoginWithROCAUser;
-@Ignore
+
 public class TC011_Loginwith_ROCAUser extends BaseClass {
+	
+	@Ignore
 	@Test
 	public void Verify_Login_ROCAUser() {
 

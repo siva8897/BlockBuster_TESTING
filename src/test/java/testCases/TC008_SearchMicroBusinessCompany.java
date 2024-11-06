@@ -15,8 +15,9 @@ public class TC008_SearchMicroBusinessCompany extends BaseClass {
 	public LoginPage loginpage;
 	
 	public SearchMicroBusinessCompany SMBC;
+	
 	@Ignore
-	@Test
+	@Test(groups ="regression")
 	public void verify_SearchMicroBusinessCompany() {
 		
 	

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>edgeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 01 17:38:36 IST 2024</td>
+<td>Started on:</td><td>Tue Nov 05 19:06:02 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>410 seconds (410728 ms)</td>
+<tr><td>Total time:</td><td>440 seconds (440354 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,51 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testCases.TC003_CreateRegAgent.Verfiy_CreateRegAgent()'><b>Verfiy_CreateRegAgent</b><br>Test class: testCases.TC003_CreateRegAgent</td>
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TC003_CreateRegAgent.Verfiy_CreateRegAgent(TC003_CreateRegAgent.java:103)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1251785176", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1251785176'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC003_CreateRegAgent.Verfiy_CreateRegAgent(TC003_CreateRegAgent.java:103)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>13</td>
+<td>testCases.TC003_CreateRegAgent@7db82169</td></tr>
+<tr>
 <td title='testCases.TC012_InvestigateMBC.Verify_TransferShares()'><b>Verify_TransferShares</b><br>Test class: testCases.TC012_InvestigateMBC</td>
 <td><div><pre>java.lang.AssertionError: null
 	at testCases.TC012_InvestigateMBC.Verify_TransferShares(TC012_InvestigateMBC.java:60)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1308774401", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1308774401'><pre>java.lang.AssertionError: null
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace493039188", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace493039188'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
 	at testCases.TC012_InvestigateMBC.Verify_TransferShares(TC012_InvestigateMBC.java:60)
@@ -112,8 +151,67 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>11</td>
-<td>testCases.TC012_InvestigateMBC@f74e835</td></tr>
+<td>12</td>
+<td>testCases.TC012_InvestigateMBC@7383eae2</td></tr>
+<tr>
+<td title='testCases.TC004_ExtensionofTime.Verify_ExtensionofTime()'><b>Verify_ExtensionofTime</b><br>Test class: testCases.TC004_ExtensionofTime</td>
+<td><div><pre>java.lang.AssertionError: expected [Registered Agents] but found [no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[text()=&apos;Registered Agents&apos;]&quot;}
+  (Session info: MicrosoftEdge=130.0.2849.68)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [203db728332c15c385c65ac53609a0e5, findElement {value=//h2[text()=&apos;Registered Agents&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63748}, msedge: {msedgedriverVersion: 130.0.2849.68 (ef504a70102b..., userDataDir: C:\Users\sl196\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63748/devtoo..., se:cdpVersion: 130.0.2849.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 203db728332c15c385c65ac53609a0e5]
+	at testCases.TC004_ExtensionofTime.Verify_ExtensionofTime(TC004_ExtensionofTime.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace294855240", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace294855240'><pre>java.lang.AssertionError: expected [Registered Agents] but found [no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[text()=&apos;Registered Agents&apos;]&quot;}
+  (Session info: MicrosoftEdge=130.0.2849.68)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [203db728332c15c385c65ac53609a0e5, findElement {value=//h2[text()=&apos;Registered Agents&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63748}, msedge: {msedgedriverVersion: 130.0.2849.68 (ef504a70102b..., userDataDir: C:\Users\sl196\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63748/devtoo..., se:cdpVersion: 130.0.2849.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 203db728332c15c385c65ac53609a0e5]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at testCases.TC004_ExtensionofTime.Verify_ExtensionofTime(TC004_ExtensionofTime.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>19</td>
+<td>testCases.TC004_ExtensionofTime@1992eaf4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -124,65 +222,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC011_Loginwith_ROCAUser.Verify_Login_ROCAUser()'><b>Verify_Login_ROCAUser</b><br>Test class: testCases.TC011_Loginwith_ROCAUser</td>
+<td title='testCases.TC014_CreateROCAUser.verifyCreateROCAUser()'><b>verifyCreateROCAUser</b><br>Test class: testCases.TC014_CreateROCAUser</td>
 <td></td>
-<td>2</td>
-<td>testCases.TC011_Loginwith_ROCAUser@1992eaf4</td></tr>
+<td>4</td>
+<td>testCases.TC014_CreateROCAUser@7c7d3c46</td></tr>
 <tr>
-<td title='testCases.TC003_CreateRegAgent.Verfiy_CreateRegAgent()'><b>Verfiy_CreateRegAgent</b><br>Test class: testCases.TC003_CreateRegAgent</td>
+<td title='testCases.TC015_ModifyROCAUser.VerifyModifyROCAUser()'><b>VerifyModifyROCAUser</b><br>Test class: testCases.TC015_ModifyROCAUser</td>
 <td></td>
-<td>5</td>
-<td>testCases.TC003_CreateRegAgent@10650953</td></tr>
-<tr>
-<td title='testCases.TC002_RegisterMBC.Verify_RegisterMBC()'><b>Verify_RegisterMBC</b><br>Test class: testCases.TC002_RegisterMBC</td>
-<td></td>
-<td>6</td>
-<td>testCases.TC002_RegisterMBC@4c6daf0</td></tr>
+<td>3</td>
+<td>testCases.TC015_ModifyROCAUser@24fb6a80</td></tr>
 <tr>
 <td title='testCases.TC007_TransferShares.verify_TransferShares()'><b>verify_TransferShares</b><br>Test class: testCases.TC007_TransferShares</td>
 <td></td>
-<td>10</td>
-<td>testCases.TC007_TransferShares@1c9f0a20</td></tr>
+<td>9</td>
+<td>testCases.TC007_TransferShares@3f28bd56</td></tr>
+<tr>
+<td title='testCases.TC002_RegisterMBC.Verify_RegisterMBC()'><b>Verify_RegisterMBC</b><br>Test class: testCases.TC002_RegisterMBC</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC002_RegisterMBC@1cd201a8</td></tr>
+<tr>
+<td title='testCases.TC008_SearchMicroBusinessCompany.verify_SearchMicroBusinessCompany()'><b>verify_SearchMicroBusinessCompany</b><br>Test class: testCases.TC008_SearchMicroBusinessCompany</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC008_SearchMicroBusinessCompany@31e3250d</td></tr>
 <tr>
 <td title='testCases.TC013_CreateRAUser.verify_CreateRAUser()'><b>verify_CreateRAUser</b><br>Test class: testCases.TC013_CreateRAUser</td>
 <td></td>
 <td>4</td>
-<td>testCases.TC013_CreateRAUser@3276732</td></tr>
+<td>testCases.TC013_CreateRAUser@18245eb0</td></tr>
 <tr>
 <td title='testCases.TC009_ProtfolioTransactionSummary.verifyProfolioTransactionSummary()'><b>verifyProfolioTransactionSummary</b><br>Test class: testCases.TC009_ProtfolioTransactionSummary</td>
 <td></td>
 <td>8</td>
-<td>testCases.TC009_ProtfolioTransactionSummary@1cd201a8</td></tr>
-<tr>
-<td title='testCases.TC005_AnnualReturn.verify_AnnualReturn()'><b>verify_AnnualReturn</b><br>Test class: testCases.TC005_AnnualReturn</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_AnnualReturn@162be91c</td></tr>
-<tr>
-<td title='testCases.TC004_ExtensionofTime.Verify_ExtensionofTime()'><b>Verify_ExtensionofTime</b><br>Test class: testCases.TC004_ExtensionofTime</td>
-<td></td>
-<td>9</td>
-<td>testCases.TC004_ExtensionofTime@659eef7</td></tr>
+<td>testCases.TC009_ProtfolioTransactionSummary@19fe4644</td></tr>
 <tr>
 <td title='testCases.TC006_Amendment.verify_Amendment()'><b>verify_Amendment</b><br>Test class: testCases.TC006_Amendment</td>
 <td></td>
 <td>7</td>
-<td>testCases.TC006_Amendment@2488b073</td></tr>
+<td>testCases.TC006_Amendment@3276732</td></tr>
+<tr>
+<td title='testCases.TC011_Loginwith_ROCAUser.Verify_Login_ROCAUser()'><b>Verify_Login_ROCAUser</b><br>Test class: testCases.TC011_Loginwith_ROCAUser</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC011_Loginwith_ROCAUser@5be067de</td></tr>
 <tr>
 <td title='testCases.TC010_Strike_OffMBC.verify_StrikOffMBC()'><b>verify_StrikOffMBC</b><br>Test class: testCases.TC010_Strike_OffMBC</td>
 <td></td>
-<td>4</td>
-<td>testCases.TC010_Strike_OffMBC@7db82169</td></tr>
+<td>5</td>
+<td>testCases.TC010_Strike_OffMBC@21d8bcbe</td></tr>
 <tr>
 <td title='testCases.TC001_LoginPageTest.verify_loginpage()'><b>verify_loginpage</b><br>Test class: testCases.TC001_LoginPageTest</td>
 <td></td>
-<td>2</td>
-<td>testCases.TC001_LoginPageTest@768ccdc5</td></tr>
-<tr>
-<td title='testCases.TC008_SearchMicroBusinessCompany.verify_SearchMicroBusinessCompany()'><b>verify_SearchMicroBusinessCompany</b><br>Test class: testCases.TC008_SearchMicroBusinessCompany</td>
-<td></td>
-<td>15</td>
-<td>testCases.TC008_SearchMicroBusinessCompany@55787112</td></tr>
+<td>1</td>
+<td>testCases.TC001_LoginPageTest@55787112</td></tr>
 </table><p>
 </body>
 </html>

@@ -8,8 +8,9 @@ import pageObjects.LoginPage;
 
 public class TC001_LoginPageTest extends BaseClass {
 
-@Ignore
-	@Test
+
+	@Ignore
+	@Test(groups = {"regression"})
 	public void verify_loginpage() {
 
 		// Login Page

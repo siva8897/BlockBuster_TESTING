@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-04T12:09:00 IST" name="Master Suite" finished-at="2024-11-04T12:09:32 IST" duration-ms="31696">
+  <suite started-at="2024-11-06T14:42:22 IST" name="Master Suite" finished-at="2024-11-06T14:42:55 IST" duration-ms="33297">
     <groups>
     </groups>
-    <test started-at="2024-11-04T12:09:00 IST" name="Test" finished-at="2024-11-04T12:09:32 IST" duration-ms="31696">
-      <class name="testCases.TC014_CreateROCAUser">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC014_CreateROCAUser@5ef0d29e]" started-at="2024-11-04T12:09:00 IST" name="setup" finished-at="2024-11-04T12:09:31 IST" duration-ms="31270" status="PASS">
+    <test started-at="2024-11-06T14:42:22 IST" name="Test" finished-at="2024-11-06T14:42:55 IST" duration-ms="33297">
+      <class name="testCases.TC015_ModifyROCAUser">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC015_ModifyROCAUser@51850751]" started-at="2024-11-06T14:42:22 IST" name="setup" finished-at="2024-11-06T14:42:48 IST" duration-ms="25843" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCreateROCAUser()[pri:0, instance:testCases.TC014_CreateROCAUser@5ef0d29e]" started-at="2024-11-04T12:09:31 IST" name="verifyCreateROCAUser" finished-at="2024-11-04T12:09:32 IST" duration-ms="233" status="PASS">
+        <test-method signature="VerifyModifyROCAUser()[pri:0, instance:testCases.TC015_ModifyROCAUser@51850751]" started-at="2024-11-06T14:42:48 IST" name="VerifyModifyROCAUser" finished-at="2024-11-06T14:42:55 IST" duration-ms="7266" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreateROCAUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC014_CreateROCAUser@5ef0d29e]" started-at="2024-11-04T12:09:32 IST" name="tearDown" finished-at="2024-11-04T12:09:32 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- VerifyModifyROCAUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC015_ModifyROCAUser@51850751]" started-at="2024-11-06T14:42:55 IST" name="tearDown" finished-at="2024-11-06T14:42:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC014_CreateROCAUser -->
+      </class> <!-- testCases.TC015_ModifyROCAUser -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>
