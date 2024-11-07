@@ -15,7 +15,7 @@ public class TC012_InvestigateMBC extends BaseClass {
 
 	public InvestigateMBC investigate;
 
-	@Ignore
+	
 	@Test
 	public void Verify_TransferShares() {
 
