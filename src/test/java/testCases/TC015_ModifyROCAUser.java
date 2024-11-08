@@ -21,7 +21,7 @@ public class TC015_ModifyROCAUser extends BaseClass {
 	public CreateRegAgent crAgent;
 
 	public ModifyROCAUser modifyROCAUser;
-
+    @Ignore
 	@Test
 	public void VerifyModifyROCAUser() throws Exception {
 

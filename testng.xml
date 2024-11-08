@@ -26,6 +26,7 @@
 			<class name="testCases.TC013_CreateRAUser"/>
 			<class name="testCases.TC014_CreateROCAUser"/>
 			<class name="testCases.TC015_ModifyROCAUser"/>
+			<class name="testCases.TC016_AddNewRole"/>
 			
 
 

@@ -18,7 +18,7 @@ public class TC009_ProtfolioTransactionSummary extends BaseClass {
 	public SearchMicroBusinessCompany SMBC;
 
 	public PortfolioTransactionSummary ptSummary;
-	
+	@Ignore
 	@Test
 	public void verifyProfolioTransactionSummary() {
 

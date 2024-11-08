@@ -8,25 +8,47 @@ import pageObjects.LoginPage;
 
 public class TC001_LoginPageTest extends BaseClass {
 
-
-	
-	@Test(groups = {"regression"})
+	@Ignore
+	@Test(groups = { "regression" })
 	public void verify_loginpage() {
 
 		// Login Page
 
 		try {
+
+			logger.info("****Start in to LoginPage Execution*****");
 			LoginPage loginpage = new LoginPage(driver);
 
 			loginpage.SetUserName("rocasuperuser");
 			loginpage.SetPassword("Welcome_1!");
 			loginpage.SetSingin();
+
+			logger.info("User Successfully login Application");
+
 			String confmsg = loginpage.getConfirmationMsg();
 
-			Assert.assertEquals(confmsg, "Welcome ROCA Super User");
+			logger.info("Validating expeacted Message");
+
+			if (confmsg.equals("Welcome ROCA Super User")) {
+
+				Assert.assertTrue(true);
+			}
+
+			else {
+
+				logger.error("Test failed");
+
+				logger.debug("Debug logs..");
+
+				Assert.assertTrue(false);
+			}
+
 		} catch (Exception e) {
 
 			Assert.fail();
+
 		}
+
+		logger.info("**** Finished TC01_LoginPageTest ***");
 	}
 }

@@ -8,6 +8,8 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -20,16 +22,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-
 import com.beust.jcommander.Parameter;
 
 public class BaseClass {
 	public static WebDriver driver;
+	
+	public Logger logger; //Log4j
 
 	@BeforeClass
 
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) {
+		
+		logger=LogManager.getLogger(this.getClass());
 
 		switch (br.toLowerCase()) {
 
@@ -64,7 +69,7 @@ public class BaseClass {
 	@AfterClass
 	public void tearDown() {
 
-		driver.quit();
+		//driver.quit();
 
 	}
 

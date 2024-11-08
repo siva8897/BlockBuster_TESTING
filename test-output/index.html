@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Master_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC015_ModifyROCAUser" class="method navigator-link" hash-for-method="VerifyModifyROCAUser">VerifyModifyROCAUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC016_AddNewRole" class="method navigator-link" hash-for-method="VerifyAddNewRole">VerifyAddNewRole</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Master_Suite -->
@@ -121,14 +121,14 @@
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC015_ModifyROCAUser</span>
+              <span class="class-name">testCases.TC016_AddNewRole</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyModifyROCAUser">
-                  </a> <!-- VerifyModifyROCAUser -->
-                  <span class="method-name">VerifyModifyROCAUser</span>
+                  <a name="VerifyAddNewRole">
+                  </a> <!-- VerifyAddNewRole -->
+                  <span class="method-name">VerifyAddNewRole</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -165,6 +165,7 @@
       &lt;class name=&quot;testCases.TC013_CreateRAUser&quot;/&gt;
       &lt;class name=&quot;testCases.TC014_CreateROCAUser&quot;/&gt;
       &lt;class name=&quot;testCases.TC015_ModifyROCAUser&quot;/&gt;
+      &lt;class name=&quot;testCases.TC016_AddNewRole&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Master Suite --&gt;
@@ -178,7 +179,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (15 classes)</span>
+                <span class="test-name">Test (16 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,14 +207,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyModifyROCAUser')
-data.setCell(0, 2, 'testCases.TC015_ModifyROCAUser')
-data.setCell(0, 3, 7347);
+data.setCell(0, 1, 'VerifyAddNewRole')
+data.setCell(0, 2, 'testCases.TC016_AddNewRole')
+data.setCell(0, 3, 3187);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Master_Suite">
               </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
@@ -228,20 +229,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">14 ignored methods</span>
+            <span class="header-content">15 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC005_AnnualReturn</span>
+              <span class="ignored-class-name">testCases.TC007_TransferShares</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_AnnualReturn</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC014_CreateROCAUser</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyCreateROCAUser</span>
+                <span class="ignored-method-name">verify_TransferShares</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -253,9 +247,37 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC004_ExtensionofTime</span>
+              <span class="ignored-class-name">testCases.TC006_Amendment</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">Verify_ExtensionofTime</span>
+                <span class="ignored-method-name">verify_Amendment</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC005_AnnualReturn</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_AnnualReturn</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC009_ProtfolioTransactionSummary</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyProfolioTransactionSummary</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC002_RegisterMBC</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Verify_RegisterMBC</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC015_ModifyROCAUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifyModifyROCAUser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -263,6 +285,34 @@ return data;
               <span class="ignored-class-name">testCases.TC013_CreateRAUser</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">verify_CreateRAUser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC004_ExtensionofTime</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Verify_ExtensionofTime</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC014_CreateROCAUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyCreateROCAUser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC010_Strike_OffMBC</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_StrikOffMBC</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC012_InvestigateMBC</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Verify_TransferShares</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -281,51 +331,9 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC010_Strike_OffMBC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_StrikOffMBC</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC009_ProtfolioTransactionSummary</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyProfolioTransactionSummary</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC012_InvestigateMBC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">Verify_TransferShares</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC006_Amendment</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_Amendment</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">testCases.TC008_SearchMicroBusinessCompany</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">verify_SearchMicroBusinessCompany</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC007_TransferShares</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_TransferShares</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC002_RegisterMBC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">Verify_RegisterMBC</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -337,18 +345,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC015_ModifyROCAUser</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC016_AddNewRole</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">VerifyModifyROCAUser</span>
-                <span class="method-start">32453 ms</span>
+                <span class="method-name">VerifyAddNewRole</span>
+                <span class="method-start">24469 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39807 ms</span>
+                <span class="method-start">28079 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
