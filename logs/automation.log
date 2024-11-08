@@ -1,0 +1,79 @@
+2024-11-08 11:24:12 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 11:24:26 INFO  TC001_LoginPageTest:18 - ****Start in to LoginPage Execution*****
+2024-11-08 11:24:26 INFO  TC001_LoginPageTest:25 - User Successfully login Application
+2024-11-08 11:24:28 INFO  TC001_LoginPageTest:29 - Validating expeacted Message
+2024-11-08 11:24:28 INFO  TC001_LoginPageTest:51 - **** Finished TC01_LoginPageTest ***
+2024-11-08 12:11:15 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 12:17:21 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 12:24:58 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 12:27:23 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 12:40:36 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 13:51:02 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 14:00:07 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 14:01:27 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 14:02:42 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 14:03:20 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 14:04:27 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 14:13:02 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 14:14:04 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 14:16:59 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 14:20:23 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 16:02:17 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 16:02:54 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 16:04:25 ERROR Main:165 - D:\BlockBusterAutomationworkspace\BlockBusterTesting\test-output\testng-reports.js
+java.nio.file.AccessDeniedException: D:\BlockBusterAutomationworkspace\BlockBusterTesting\test-output\testng-reports.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273) ~[?:?]
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109) ~[?:?]
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3133) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.generateReports(TestNG.java:1158) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1087) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-11-08 16:06:11 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-11-08 17:01:05 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
