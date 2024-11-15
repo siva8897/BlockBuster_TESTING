@@ -121,14 +121,14 @@ public class RegisterMBC extends BasePage {
 
 		Select SetDrop1 = new Select(DropRegAgent);
 
-		SetDrop1.selectByValue("number:31");
+		SetDrop1.selectByVisibleText("ABACUS TRUST AND MANAGEMENT SERVICES LIMITED");
 	}
 
 	public void rdAdminUser() {
 
 		Select setDrop2 = new Select(adminUser);
 
-		setDrop2.selectByValue("number:377");
+		setDrop2.selectByVisibleText("Ronny Williams");
 	}
 
 	public void SetBussinesAs() {

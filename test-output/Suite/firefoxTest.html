@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>firefoxTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 05 19:13:23 IST 2024</td>
+<td>Started on:</td><td>Thu Nov 14 17:55:34 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>332 seconds (332926 ms)</td>
+<tr><td>Total time:</td><td>479 seconds (479864 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,56 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC015_ModifyROCAUser.VerifyModifyROCAUser()'><b>VerifyModifyROCAUser</b><br>Test class: testCases.TC015_ModifyROCAUser</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;button id=&quot;update_btn&quot; class=&quot;btn btn-lg btn-primary btn-block&quot;&gt; is not clickable at point (364,751) because another element &lt;div class=&quot;mask-layer ng-scope&quot;&gt; obscures it
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ee840a6b-8cfe-4d25-84ec-18302b10f08a, clickElement {id=d08131bf-168b-4ea9-9af9-6469f32df1d0}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:47071, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11604, moz:profile: C:\Users\sl196\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47071/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (ee840a6b-8cfe-4d25-84ec-18302b10f08a)] -&gt; id: update_btn]
-Session ID: ee840a6b-8cfe-4d25-84ec-18302b10f08a
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-	at pageObjects.ModifyROCAUser.SetButton(ModifyROCAUser.java:91)
-	at testCases.TC015_ModifyROCAUser.VerifyModifyROCAUser(TC015_ModifyROCAUser.java:51)
+<td title='testCases.TC002_RegisterMBC.Verify_RegisterMBC()'><b>Verify_RegisterMBC</b><br>Test class: testCases.TC002_RegisterMBC</td>
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TC002_RegisterMBC.Verify_RegisterMBC(TC002_RegisterMBC.java:77)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace66172241", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace66172241'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;button id=&quot;update_btn&quot; class=&quot;btn btn-lg btn-primary btn-block&quot;&gt; is not clickable at point (364,751) because another element &lt;div class=&quot;mask-layer ng-scope&quot;&gt; obscures it
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ee840a6b-8cfe-4d25-84ec-18302b10f08a, clickElement {id=d08131bf-168b-4ea9-9af9-6469f32df1d0}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:47071, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11604, moz:profile: C:\Users\sl196\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47071/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (ee840a6b-8cfe-4d25-84ec-18302b10f08a)] -&gt; id: update_btn]
-Session ID: ee840a6b-8cfe-4d25-84ec-18302b10f08a
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-	at pageObjects.ModifyROCAUser.SetButton(ModifyROCAUser.java:91)
-	at testCases.TC015_ModifyROCAUser.VerifyModifyROCAUser(TC015_ModifyROCAUser.java:51)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1735846260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1735846260'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC002_RegisterMBC.Verify_RegisterMBC(TC002_RegisterMBC.java:77)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -153,18 +112,18 @@ Session ID: ee840a6b-8cfe-4d25-84ec-18302b10f08a
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>2</td>
-<td>testCases.TC015_ModifyROCAUser@1643d68f</td></tr>
+<td>12</td>
+<td>testCases.TC002_RegisterMBC@538613b3</td></tr>
 <tr>
 <td title='testCases.TC012_InvestigateMBC.Verify_TransferShares()'><b>Verify_TransferShares</b><br>Test class: testCases.TC012_InvestigateMBC</td>
 <td><div><pre>java.lang.AssertionError: null
-	at testCases.TC012_InvestigateMBC.Verify_TransferShares(TC012_InvestigateMBC.java:60)
+	at testCases.TC012_InvestigateMBC.Verify_TransferShares(TC012_InvestigateMBC.java:61)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace829160813", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace829160813'><pre>java.lang.AssertionError: null
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace498977953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace498977953'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC012_InvestigateMBC.Verify_TransferShares(TC012_InvestigateMBC.java:60)
+	at testCases.TC012_InvestigateMBC.Verify_TransferShares(TC012_InvestigateMBC.java:61)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -193,7 +152,7 @@ Session ID: ee840a6b-8cfe-4d25-84ec-18302b10f08a
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>11</td>
-<td>testCases.TC012_InvestigateMBC@34a75079</td></tr>
+<td>testCases.TC012_InvestigateMBC@67ef029</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -204,65 +163,70 @@ Session ID: ee840a6b-8cfe-4d25-84ec-18302b10f08a
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC004_ExtensionofTime.Verify_ExtensionofTime()'><b>Verify_ExtensionofTime</b><br>Test class: testCases.TC004_ExtensionofTime</td>
-<td></td>
-<td>9</td>
-<td>testCases.TC004_ExtensionofTime@4ae33a11</td></tr>
-<tr>
 <td title='testCases.TC009_ProtfolioTransactionSummary.verifyProfolioTransactionSummary()'><b>verifyProfolioTransactionSummary</b><br>Test class: testCases.TC009_ProtfolioTransactionSummary</td>
 <td></td>
 <td>21</td>
-<td>testCases.TC009_ProtfolioTransactionSummary@6d0b5baf</td></tr>
+<td>testCases.TC009_ProtfolioTransactionSummary@18cc679e</td></tr>
 <tr>
-<td title='testCases.TC014_CreateROCAUser.verifyCreateROCAUser()'><b>verifyCreateROCAUser</b><br>Test class: testCases.TC014_CreateROCAUser</td>
+<td title='testCases.TC008_SearchMicroBusinessCompany.verify_SearchMicroBusinessCompany()'><b>verify_SearchMicroBusinessCompany</b><br>Test class: testCases.TC008_SearchMicroBusinessCompany</td>
 <td></td>
-<td>2</td>
-<td>testCases.TC014_CreateROCAUser@107ed6fc</td></tr>
+<td>32</td>
+<td>testCases.TC008_SearchMicroBusinessCompany@9f46d94</td></tr>
 <tr>
-<td title='testCases.TC013_CreateRAUser.verify_CreateRAUser()'><b>verify_CreateRAUser</b><br>Test class: testCases.TC013_CreateRAUser</td>
+<td title='testCases.TC004_ExtensionofTime.Verify_ExtensionofTime()'><b>Verify_ExtensionofTime</b><br>Test class: testCases.TC004_ExtensionofTime</td>
 <td></td>
-<td>2</td>
-<td>testCases.TC013_CreateRAUser@346a361</td></tr>
+<td>10</td>
+<td>testCases.TC004_ExtensionofTime@11389053</td></tr>
 <tr>
-<td title='testCases.TC010_Strike_OffMBC.verify_StrikOffMBC()'><b>verify_StrikOffMBC</b><br>Test class: testCases.TC010_Strike_OffMBC</td>
+<td title='testCases.TC006_Amendment.verify_Amendment()'><b>verify_Amendment</b><br>Test class: testCases.TC006_Amendment</td>
 <td></td>
-<td>5</td>
-<td>testCases.TC010_Strike_OffMBC@631e06ab</td></tr>
+<td>6</td>
+<td>testCases.TC006_Amendment@3ec11999</td></tr>
 <tr>
 <td title='testCases.TC007_TransferShares.verify_TransferShares()'><b>verify_TransferShares</b><br>Test class: testCases.TC007_TransferShares</td>
 <td></td>
 <td>25</td>
-<td>testCases.TC007_TransferShares@3a94964</td></tr>
+<td>testCases.TC007_TransferShares@5c1bd44c</td></tr>
 <tr>
-<td title='testCases.TC006_Amendment.verify_Amendment()'><b>verify_Amendment</b><br>Test class: testCases.TC006_Amendment</td>
+<td title='testCases.TC015_ModifyROCAUser.VerifyModifyROCAUser()'><b>VerifyModifyROCAUser</b><br>Test class: testCases.TC015_ModifyROCAUser</td>
 <td></td>
 <td>7</td>
-<td>testCases.TC006_Amendment@b40bb6e</td></tr>
+<td>testCases.TC015_ModifyROCAUser@2755d705</td></tr>
 <tr>
-<td title='testCases.TC008_SearchMicroBusinessCompany.verify_SearchMicroBusinessCompany()'><b>verify_SearchMicroBusinessCompany</b><br>Test class: testCases.TC008_SearchMicroBusinessCompany</td>
+<td title='testCases.TC003_CreateRegAgent.Verfiy_CreateRegAgent()'><b>Verfiy_CreateRegAgent</b><br>Test class: testCases.TC003_CreateRegAgent</td>
 <td></td>
-<td>31</td>
-<td>testCases.TC008_SearchMicroBusinessCompany@5049d8b2</td></tr>
-<tr>
-<td title='testCases.TC001_LoginPageTest.verify_loginpage()'><b>verify_loginpage</b><br>Test class: testCases.TC001_LoginPageTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_LoginPageTest@72a85671</td></tr>
+<td>4</td>
+<td>testCases.TC003_CreateRegAgent@1eef9aef</td></tr>
 <tr>
 <td title='testCases.TC011_Loginwith_ROCAUser.Verify_Login_ROCAUser()'><b>Verify_Login_ROCAUser</b><br>Test class: testCases.TC011_Loginwith_ROCAUser</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC011_Loginwith_ROCAUser@2a3591c5</td></tr>
+<td>testCases.TC011_Loginwith_ROCAUser@2c4ca0f9</td></tr>
 <tr>
-<td title='testCases.TC002_RegisterMBC.Verify_RegisterMBC()'><b>Verify_RegisterMBC</b><br>Test class: testCases.TC002_RegisterMBC</td>
-<td></td>
-<td>6</td>
-<td>testCases.TC002_RegisterMBC@6722db6e</td></tr>
-<tr>
-<td title='testCases.TC003_CreateRegAgent.Verfiy_CreateRegAgent()'><b>Verfiy_CreateRegAgent</b><br>Test class: testCases.TC003_CreateRegAgent</td>
+<td title='testCases.TC001_LoginPageTest.verify_loginpage()'><b>verify_loginpage</b><br>Test class: testCases.TC001_LoginPageTest</td>
 <td></td>
 <td>3</td>
-<td>testCases.TC003_CreateRegAgent@18f20260</td></tr>
+<td>testCases.TC001_LoginPageTest@4de025bf</td></tr>
+<tr>
+<td title='testCases.TC005_AnnualReturn.verify_AnnualReturn()'><b>verify_AnnualReturn</b><br>Test class: testCases.TC005_AnnualReturn</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_AnnualReturn@5db99216</td></tr>
+<tr>
+<td title='testCases.TC010_Strike_OffMBC.verify_StrikOffMBC()'><b>verify_StrikOffMBC</b><br>Test class: testCases.TC010_Strike_OffMBC</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC010_Strike_OffMBC@2e77b8cf</td></tr>
+<tr>
+<td title='testCases.TC013_CreateRAUser.verify_CreateRAUser()'><b>verify_CreateRAUser</b><br>Test class: testCases.TC013_CreateRAUser</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC013_CreateRAUser@7df587ef</td></tr>
+<tr>
+<td title='testCases.TC014_CreateROCAUser.verifyCreateROCAUser()'><b>verifyCreateROCAUser</b><br>Test class: testCases.TC014_CreateROCAUser</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC014_CreateROCAUser@6e57e95e</td></tr>
 </table><p>
 </body>
 </html>

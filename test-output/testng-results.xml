@@ -2,12 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-08T17:01:05 IST" name="Master Suite" finished-at="2024-11-08T17:01:33 IST" duration-ms="28229">
+  <suite started-at="2024-11-15T17:36:24 IST" name="Master Suite" finished-at="2024-11-15T17:37:07 IST" duration-ms="43429">
     <groups>
+      <group name="smoke">
+        <method signature="TC002_RegisterMBC.Verify_RegisterMBC()[pri:0, instance:testCases.TC002_RegisterMBC@64da2a7]" name="Verify_RegisterMBC" class="testCases.TC002_RegisterMBC"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-11-08T17:01:05 IST" name="Test" finished-at="2024-11-08T17:01:33 IST" duration-ms="28229">
-      <class name="testCases.TC016_AddNewRole">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC016_AddNewRole@62417a16]" started-at="2024-11-08T17:01:05 IST" name="setup" finished-at="2024-11-08T17:01:30 IST" duration-ms="24462" status="PASS">
+    <test started-at="2024-11-15T17:36:24 IST" name="Test" finished-at="2024-11-15T17:37:07 IST" duration-ms="43429">
+      <class name="testCases.TC002_RegisterMBC">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_RegisterMBC@64da2a7]" started-at="2024-11-15T17:36:24 IST" name="setup" finished-at="2024-11-15T17:37:01 IST" duration-ms="37212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyAddNewRole()[pri:0, instance:testCases.TC016_AddNewRole@62417a16]" started-at="2024-11-08T17:01:30 IST" name="VerifyAddNewRole" finished-at="2024-11-08T17:01:33 IST" duration-ms="3187" status="PASS">
+        <test-method signature="Verify_RegisterMBC()[pri:0, instance:testCases.TC002_RegisterMBC@64da2a7]" started-at="2024-11-15T17:37:01 IST" name="Verify_RegisterMBC" finished-at="2024-11-15T17:37:07 IST" duration-ms="6046" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyAddNewRole -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC016_AddNewRole@62417a16]" started-at="2024-11-08T17:01:33 IST" name="tearDown" finished-at="2024-11-08T17:01:33 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- Verify_RegisterMBC -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_RegisterMBC@64da2a7]" started-at="2024-11-15T17:37:07 IST" name="tearDown" finished-at="2024-11-15T17:37:07 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC016_AddNewRole -->
+      </class> <!-- testCases.TC002_RegisterMBC -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

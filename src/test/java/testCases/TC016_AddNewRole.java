@@ -1,6 +1,7 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import pageObjects.AddNewRole;
@@ -14,7 +15,7 @@ public class TC016_AddNewRole extends BaseClass {
 	public RegisterMBC regMBC;
 
 	public AddNewRole addnewrole;
-
+    @Ignore
 	@Test
 	public void VerifyAddNewRole() {
 

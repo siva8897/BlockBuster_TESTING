@@ -8,20 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC012_InvestigateMBC">
+      <class name="testCases.TC002_RegisterMBC">
         <methods>
           <include name="setup"/>
+          <include name="Verify_RegisterMBC"/>
           <include name="tearDown"/>
-          <include name="Verify_TransferShares"/>
         </methods>
-      </class> <!-- testCases.TC012_InvestigateMBC -->
-      <class name="testCases.TC005_AnnualReturn">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="verify_AnnualReturn"/>
-        </methods>
-      </class> <!-- testCases.TC005_AnnualReturn -->
+      </class> <!-- testCases.TC002_RegisterMBC -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

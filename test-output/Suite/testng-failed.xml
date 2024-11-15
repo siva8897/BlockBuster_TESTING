@@ -8,6 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC014_CreateROCAUser">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyCreateROCAUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC014_CreateROCAUser -->
       <class name="testCases.TC012_InvestigateMBC">
         <methods>
           <include name="setup"/>
@@ -15,19 +22,26 @@
           <include name="Verify_TransferShares"/>
         </methods>
       </class> <!-- testCases.TC012_InvestigateMBC -->
+      <class name="testCases.TC002_RegisterMBC">
+        <methods>
+          <include name="setup"/>
+          <include name="Verify_RegisterMBC"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC002_RegisterMBC -->
     </classes>
   </test> <!-- chromeTest(failed) -->
   <test thread-count="5" name="edgeTest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC004_ExtensionofTime">
+      <class name="testCases.TC010_Strike_OffMBC">
         <methods>
           <include name="setup"/>
-          <include name="Verify_ExtensionofTime"/>
+          <include name="verify_StrikOffMBC"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.TC004_ExtensionofTime -->
+      </class> <!-- testCases.TC010_Strike_OffMBC -->
       <class name="testCases.TC012_InvestigateMBC">
         <methods>
           <include name="setup"/>
@@ -35,26 +49,19 @@
           <include name="Verify_TransferShares"/>
         </methods>
       </class> <!-- testCases.TC012_InvestigateMBC -->
-      <class name="testCases.TC003_CreateRegAgent">
+      <class name="testCases.TC002_RegisterMBC">
         <methods>
           <include name="setup"/>
+          <include name="Verify_RegisterMBC"/>
           <include name="tearDown"/>
-          <include name="Verfiy_CreateRegAgent"/>
         </methods>
-      </class> <!-- testCases.TC003_CreateRegAgent -->
+      </class> <!-- testCases.TC002_RegisterMBC -->
     </classes>
   </test> <!-- edgeTest(failed) -->
   <test thread-count="5" name="firefoxTest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="testCases.TC015_ModifyROCAUser">
-        <methods>
-          <include name="setup"/>
-          <include name="VerifyModifyROCAUser"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testCases.TC015_ModifyROCAUser -->
       <class name="testCases.TC012_InvestigateMBC">
         <methods>
           <include name="setup"/>
@@ -62,6 +69,13 @@
           <include name="Verify_TransferShares"/>
         </methods>
       </class> <!-- testCases.TC012_InvestigateMBC -->
+      <class name="testCases.TC002_RegisterMBC">
+        <methods>
+          <include name="setup"/>
+          <include name="Verify_RegisterMBC"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC002_RegisterMBC -->
     </classes>
   </test> <!-- firefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
