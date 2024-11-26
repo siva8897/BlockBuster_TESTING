@@ -56,8 +56,13 @@ public class BaseClass {
 
 		}
 		// driver = new ChromeDriver();
+		
 
-		driver.get("http://bvifsc-bb.radiant.digital:8080/BB-2.0.2/#/admin");
+		
+
+		driver.get("https://bvifsc-bb.radiant.digital:8080/BB-2.0.2/#/admin");
+		
+		
 
 		driver.manage().window().maximize();
 

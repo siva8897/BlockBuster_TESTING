@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC002_RegisterMBC">
+      <class name="testCases.TC021_CourtOrderedInvestigation">
         <methods>
           <include name="setup"/>
-          <include name="Verify_RegisterMBC"/>
           <include name="tearDown"/>
+          <include name="verifyCourtOrderInvestigation"/>
         </methods>
-      </class> <!-- testCases.TC002_RegisterMBC -->
+      </class> <!-- testCases.TC021_CourtOrderedInvestigation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

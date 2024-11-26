@@ -28,6 +28,12 @@
 			<class name="testCases.TC015_ModifyROCAUser"/>
 			<class name="testCases.TC016_AddNewRole"/>
 			<class name="testCases.TC017_AppointmentofLiquidator"/>
+			<class name="testCases.TC018_BusinessPurpose"/>
+			<class name="testCases.TC019_BVISFC"/>
+			<class name="testCases.TC020_FAQs"/>
+			<class name="testCases.TC021_CourtOrderedInvestigation"/>
+			<class name="testCases.TC022_CourtOrderTermination"/>
+			
 			
 
 

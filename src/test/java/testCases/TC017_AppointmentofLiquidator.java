@@ -9,11 +9,12 @@ import org.testng.annotations.Test;
 import pageObjects.AppointmentofLiquidator;
 import pageObjects.LoginPage;
 import pageObjects.RegisterMBC;
-@Ignore
+
 public class TC017_AppointmentofLiquidator extends BaseClass{
 	
 	public AppointmentofLiquidator appointmentofliquidator;
 
+	@Ignore
 	@Test
 	public void verifyAppointmentofLiquidator() {
 		
