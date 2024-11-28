@@ -21,13 +21,7 @@ public class TC003_CreateRegAgent extends BaseClass {
 
 		try {
 
-			LoginPage loginpage = new LoginPage(driver);
-
-			loginpage.SetUserName("rocasuperuser");
-
-			loginpage.SetPassword("Welcome_1!");
-
-			loginpage.SetSingin();
+			loginWithAdmin();
 
 			RegisterMBC registerMBC = new RegisterMBC(driver);
 

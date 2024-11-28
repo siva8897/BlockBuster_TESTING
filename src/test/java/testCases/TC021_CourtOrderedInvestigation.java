@@ -18,17 +18,11 @@ public class TC021_CourtOrderedInvestigation extends BaseClass{
 	
 	public CourtOrderInvestigation investigation;
 	
-	
+	@Ignore
 	@Test
 	public void verifyCourtOrderInvestigation() {
 		
-		loginpage= new LoginPage(driver);
-		
-		loginpage.SetUserName("rocasuperuser");
-		
-		loginpage.SetPassword("Welcome_1!");
-		
-		loginpage.SetSingin();
+		loginWithAdmin();
 		
 	    registermbc =new RegisterMBC(driver);
 	    

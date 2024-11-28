@@ -31,13 +31,7 @@ public class TC014_CreateROCAUser extends BaseClass {
 
 		try {
 
-			loginpage = new LoginPage(driver);
-
-			loginpage.SetUserName("rocasuperuser");
-
-			loginpage.SetPassword("Welcome_1!");
-
-			loginpage.SetSingin();
+			loginWithAdmin();
 
 			registerMBC = new RegisterMBC(driver);
 

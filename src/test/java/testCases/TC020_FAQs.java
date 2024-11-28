@@ -18,20 +18,14 @@ public class TC020_FAQs extends BaseClass {
 	public BVISFC bvisfc;
 	
 	public FAQs faqs;
-@Ignore	
+@Ignore
 @Test
 	public void verifyFAQs() {
 
 	try {
 		
 	
-		loginpage = new LoginPage(driver);
-
-		loginpage.SetUserName("rocasuperuser");
-
-		loginpage.SetPassword("Welcome_1!");
-
-		loginpage.SetSingin();
+		loginWithAdmin();
 
 		regMBC = new RegisterMBC(driver);
 

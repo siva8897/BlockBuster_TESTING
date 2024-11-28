@@ -25,13 +25,7 @@ public class TC007_TransferShares extends BaseClass {
 
 		try {
 
-			loginpage = new LoginPage(driver);
-
-			loginpage.SetUserName("rocasuperuser");
-
-			loginpage.SetPassword("Welcome_1!");
-
-			loginpage.SetSingin();
+			loginWithAdmin();
 
 			registermbc = new RegisterMBC(driver);
 

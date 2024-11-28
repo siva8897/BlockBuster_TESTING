@@ -14,7 +14,7 @@ public class TC002_RegisterMBC extends BaseClass{
 
 	
 
-    @Ignore    
+   @Ignore
 	@Test(groups = {"smoke"})
 	public void Verify_RegisterMBC() throws Exception {
 		
@@ -22,13 +22,7 @@ public class TC002_RegisterMBC extends BaseClass{
 		
 		try {
 
-		LoginPage loginpage = new LoginPage(driver);
-
-		loginpage.SetUserName("rocasuperuser");
-
-		loginpage.SetPassword("Welcome_1!");
-
-		loginpage.SetSingin();
+		loginWithAdmin();
 
 		RegisterMBC regMBC = new RegisterMBC(driver);
 

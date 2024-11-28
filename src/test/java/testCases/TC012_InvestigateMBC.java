@@ -21,11 +21,7 @@ public class TC012_InvestigateMBC extends BaseClass {
 
 		try {
 
-			LoginPage loginpage = new LoginPage(driver);
-
-			loginpage.SetUserName("rocasuperuser");
-			loginpage.SetPassword("Welcome_1!");
-			loginpage.SetSingin();
+			loginWithAdmin();
 
 			RegisterMBC regMBC = new RegisterMBC(driver);
 

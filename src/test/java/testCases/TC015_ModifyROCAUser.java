@@ -26,13 +26,7 @@ public class TC015_ModifyROCAUser extends BaseClass {
 	public void VerifyModifyROCAUser() throws Exception {
 
 		try {
-			loginpage = new LoginPage(driver);
-
-			loginpage.SetUserName("rocasuperuser");
-
-			loginpage.SetPassword("Welcome_1!");
-
-			loginpage.SetSingin();
+			loginWithAdmin();
 
 			registerMBC = new RegisterMBC(driver);
 

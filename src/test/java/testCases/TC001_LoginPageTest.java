@@ -19,9 +19,7 @@ public class TC001_LoginPageTest extends BaseClass {
 			logger.info("****Start in to LoginPage Execution*****");
 			LoginPage loginpage = new LoginPage(driver);
 
-			loginpage.SetUserName("rocasuperuser");
-			loginpage.SetPassword("Welcome_1!");
-			loginpage.SetSingin();
+			loginWithAdmin();
 
 			logger.info("User Successfully login Application");
 

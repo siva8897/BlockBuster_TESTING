@@ -15,18 +15,12 @@ public class TC016_AddNewRole extends BaseClass {
 	public RegisterMBC regMBC;
 
 	public AddNewRole addnewrole;
-    @Ignore
+   @Ignore
 	@Test
 	public void VerifyAddNewRole() {
 
 		try {
-			loginpage = new LoginPage(driver);
-
-			loginpage.SetUserName("rocasuperuser");
-
-			loginpage.SetPassword("Welcome_1!");
-
-			loginpage.SetSingin();
+			loginWithAdmin();
 
 			regMBC = new RegisterMBC(driver);
 

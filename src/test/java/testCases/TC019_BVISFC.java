@@ -26,13 +26,7 @@ public BVISFC bvisfc;
 	try {
 		
 	
-	 loginpage=new LoginPage(driver);
-	 
-	 loginpage.SetUserName("rocasuperuser");
-	 
-	 loginpage.SetPassword("Welcome_1!");
-	 
-	 loginpage.SetSingin();
+	 loginWithAdmin();
 	 
 	 regMBC = new RegisterMBC(driver);
 

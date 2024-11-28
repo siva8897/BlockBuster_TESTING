@@ -20,13 +20,8 @@ public class TC018_BusinessPurpose extends BaseClass {
 	@Test
 	public void verifyBusinessPurpose() {
 		try {
-			loginpage = new LoginPage(driver);
-
-			loginpage.SetUserName("rocasuperuser");
-
-			loginpage.SetPassword("Welcome_1!");
-
-			loginpage.SetSingin();
+			
+			loginWithAdmin();
 
 			registermbc = new RegisterMBC(driver);
 

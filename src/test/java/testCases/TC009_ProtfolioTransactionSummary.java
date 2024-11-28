@@ -23,11 +23,8 @@ public class TC009_ProtfolioTransactionSummary extends BaseClass {
 	public void verifyProfolioTransactionSummary() {
 
 		try {
-		loginpage = new LoginPage(driver);
-
-		loginpage.SetUserName("rocasuperuser");
-		loginpage.SetPassword("Welcome_1!");
-		loginpage.SetSingin();
+	
+		loginWithAdmin();
 
 		registermbc = new RegisterMBC(driver);
 

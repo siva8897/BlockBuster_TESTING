@@ -23,13 +23,8 @@ public class TC010_Strike_OffMBC extends BaseClass {
 	public void verify_StrikOffMBC() {
 
 		try {
-		loginpage = new LoginPage(driver);
-
-		loginpage.SetUserName("rocasuperuser");
-
-		loginpage.SetPassword("Welcome_1!");
-
-		loginpage.SetSingin();
+		
+		loginWithAdmin();
 
 		regMBC = new RegisterMBC(driver);
 
