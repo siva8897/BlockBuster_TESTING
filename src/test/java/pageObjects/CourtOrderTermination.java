@@ -1,16 +1,12 @@
 package pageObjects;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -21,7 +17,7 @@ public class CourtOrderTermination extends BasePage {
 
 	public CourtOrderTermination(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@FindBy(xpath = "//span[text()=\"Liquidate MBC\"]")
@@ -59,37 +55,37 @@ public class CourtOrderTermination extends BasePage {
 	@FindBy(name = "courtOrderTerminationDoc")
 
 	WebElement txtFile;
-	
-	@FindBy(id="court_order_date_picker_btn")
-	
+
+	@FindBy(id = "court_order_date_picker_btn")
+
 	WebElement btnPicker;
-	
-	@FindBy(xpath="//button[@class=\"btn btn-default btn-sm uib-title\"]")
-	
+
+	@FindBy(xpath = "//button[@class=\"btn btn-default btn-sm uib-title\"]")
+
 	WebElement txtMY;
-	
-	@FindBy(xpath="//button[@class=\"btn btn-default btn-sm pull-right uib-right\"]")
-	
+
+	@FindBy(xpath = "//button[@class=\"btn btn-default btn-sm pull-right uib-right\"]")
+
 	WebElement Next;
-	
-	@FindBy(xpath="//table[@role=\"grid\"]//tbody//tr//td")
-	
+
+	@FindBy(xpath = "//table[@role=\"grid\"]//tbody//tr//td")
+
 	List<WebElement> totalDays;
-	
-	@FindBy(xpath="//input[@name=\"reasonForTermination\"]")
-	
+
+	@FindBy(xpath = "//input[@name=\"reasonForTermination\"]")
+
 	WebElement txtReason;
-	
-	@FindBy(id="submit_btn")
-	
+
+	@FindBy(id = "submit_btn")
+
 	WebElement btnSubmit;
-	
-	@FindBy(xpath="//button[text()=\"Submit Payment\"]")
-	
+
+	@FindBy(xpath = "//button[text()=\"Submit Payment\"]")
+
 	WebElement sumbit;
-	
-	@FindBy(xpath="//div[@class=\"alert alert-success Issuance-true-div ng-binding\"]")
-	
+
+	@FindBy(xpath = "//div[@class=\"alert alert-success Issuance-true-div ng-binding\"]")
+
 	WebElement txtMessage;
 
 	public void SetLiquidate() {
@@ -153,62 +149,62 @@ public class CourtOrderTermination extends BasePage {
 		txtFile.sendKeys(filePath);
 
 	}
-	
+
 	public void SetCalcuter1() {
-	
-	btnPicker.click();
-	
-	String monthAndYear="November 2026";
-	
-	String Day="15";
-	
-	while(true) {
-		
-		if(txtMY.getText().equals(monthAndYear)) {
-			
-			break;
+
+		btnPicker.click();
+
+		String monthAndYear = "November 2026";
+
+		String Day = "15";
+
+		while (true) {
+
+			if (txtMY.getText().equals(monthAndYear)) {
+
+				break;
+			}
+
+			Next.click();
 		}
-		
-		Next.click();
-	}
-	
-	List<WebElement> items= new ArrayList<WebElement>(totalDays);
-	
-	for(WebElement it: items) {
-		
-		if(it.getText().equals(Day)) {
-			
-			it.click();
-			
-			break;
+
+		List<WebElement> items = new ArrayList<WebElement>(totalDays);
+
+		for (WebElement it : items) {
+
+			if (it.getText().equals(Day)) {
+
+				it.click();
+
+				break;
+			}
 		}
-	}
 
 	}
-	
+
 	public void Setreson(String reason) {
-		
+
 		txtReason.sendKeys(reason);
 	}
-	
+
 	public void SetSubmit() {
-		
+
 		btnSubmit.click();
 	}
-	
+
 	public void Submited() {
-		
-	WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(10));
-	
-	wait.until(ExpectedConditions.elementToBeClickable(sumbit));
-	
-		 sumbit.click();
-}
-	
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+		wait.until(ExpectedConditions.elementToBeClickable(sumbit));
+
+		sumbit.click();
+	}
+
 	public String getMessageDes() {
-		
-		String messagetxt=txtMessage.getText();
-		
+
+		String messagetxt = txtMessage.getText();
+
 		return messagetxt;
 	}
 }
