@@ -17,7 +17,7 @@ public class RegisterMBC extends BasePage {
 	
 	public BaseClass baseclass;
 	
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	
 
 	public RegisterMBC(WebDriver driver) {
 
@@ -94,14 +94,18 @@ public class RegisterMBC extends BasePage {
 	WebElement RegSuccessfully;
 
 	public void MenuButton() {
-		
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.elementToBeClickable(Menu));	
 
 		Menu.click();
 	}
 
 	public void MBCMangMenu() {
-
+		
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		
+		wait.until(ExpectedConditions.elementToBeClickable(MBCMenu));	
+		
 		MBCMenu.click();
 	}
 
