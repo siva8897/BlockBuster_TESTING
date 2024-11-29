@@ -1,6 +1,5 @@
 package pageObjects;
 
-import java.lang.classfile.ClassFile.Option;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -51,7 +50,7 @@ public class FAQs extends BasePage {
 			if (!paranetWindow.equals(childWindow)) {
 
 				driver.switchTo().window(childWindow);
-				
+
 				txtSearch.clear();
 
 				txtSearch.sendKeys(text);
