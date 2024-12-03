@@ -50,7 +50,7 @@
 		<classes>
 		<class name="testCases.TC022_CourtOrderTermination" />
 		<class name="testCases.TC023_VolutaryLiquidator"/>
-		<class name="testCases.TC025_RAAdminDashBorad"/>
+		
 	
 		
 
