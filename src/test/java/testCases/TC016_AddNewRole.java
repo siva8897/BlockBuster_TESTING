@@ -15,7 +15,7 @@ public class TC016_AddNewRole extends BaseClass {
 	public RegisterMBC regMBC;
 
 	public AddNewRole addnewrole;
-   @Ignore
+   
 	@Test
 	public void VerifyAddNewRole() {
 

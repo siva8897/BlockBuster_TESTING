@@ -8,7 +8,7 @@ import pageObjects.DashBorad;
 
 public class TC024_DashBorad extends BaseClass{
 	public DashBorad dashborad;
-	@Ignore
+	
 	@Test
 	public void VerifyDashBorad() {
 		

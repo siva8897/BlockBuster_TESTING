@@ -19,7 +19,7 @@ public LoginPage loginpage;
 public RegisterMBC regMBC;
 
 public BVISFC bvisfc;
-@Ignore
+
 @Test
 	public void verifyBVISFC() {
 	

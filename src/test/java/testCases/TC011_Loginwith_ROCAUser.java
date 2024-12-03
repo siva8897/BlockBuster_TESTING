@@ -9,7 +9,7 @@ import pageObjects.LoginWithROCAUser;
 
 public class TC011_Loginwith_ROCAUser extends BaseClass {
 	
-	@Ignore
+	
 	@Test
 	public void Verify_Login_ROCAUser() {
 

@@ -13,7 +13,7 @@ import pageObjects.RegisterMBC;
 
 public class TC003_CreateRegAgent extends BaseClass {
 
-	@Ignore
+	
 	@Test(groups="smoke")
 	public void Verfiy_CreateRegAgent() throws Exception {
 
