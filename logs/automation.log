@@ -142,3 +142,10 @@
 2024-12-03 17:46:53 INFO  Utils:112 - [TestNG] Running:
   D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
 
+2024-12-03 19:12:16 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+
+2024-12-03 19:12:44 INFO  TC001_LoginPageTest:18 - ****Start in to LoginPage Execution*****
+2024-12-03 19:12:44 INFO  TC001_LoginPageTest:23 - User Successfully login Application
+2024-12-03 19:12:45 INFO  TC001_LoginPageTest:27 - Validating expeacted Message
+2024-12-03 19:12:45 INFO  TC001_LoginPageTest:49 - **** Finished TC01_LoginPageTest ***
