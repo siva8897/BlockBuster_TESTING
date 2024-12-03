@@ -22,114 +22,126 @@ import BlockBusterLoginCombinations.BlockBusterloginDetials;
 import pageObjects.LoginPage;
 
 public class BaseClass {
-    public static WebDriver driver;
-    public Logger logger; // Log4j
+	public static WebDriver driver;
+	public Logger logger; // Log4j
 
-    @BeforeClass
-    @Parameters({ "os", "browser", "userType" })  // Added userType parameter
-    public void setup(String os, String br, String userType ) {
+	@BeforeClass
+	@Parameters({ "os", "browser", "userType" }) // Added userType parameter
+	public void setup(String os, String br, String userType) {
 
-        logger = LogManager.getLogger(this.getClass());
+		logger = LogManager.getLogger(this.getClass());
 
-        // Browser setup based on the provided parameter
-        switch (br.toLowerCase()) {
-            case "chrome":
-                driver = new ChromeDriver();
-                break;
-            case "edge":
-                driver = new EdgeDriver();
-                break;
-            case "firefox":
-                driver = new FirefoxDriver();
-                break;
-            default:
-                System.out.println("Invalid browser name..");
-                return;
-        }
+		// Browser setup based on the provided parameter
+		switch (br.toLowerCase()) {
+		case "chrome":
+			driver = new ChromeDriver();
+			break;
+		case "edge":
+			driver = new EdgeDriver();
+			break;
+		case "firefox":
+			driver = new FirefoxDriver();
+			break;
+		default:
+			System.out.println("Invalid browser name..");
+			return;
+		}
 
-        // Set URL based on userType
-        if ("admin".equalsIgnoreCase(userType) || "rocaUser".equalsIgnoreCase(userType)) {
-            // URL for admin and rocaUser
-            driver.get("http://bvifsc-bb.radiant.digital:8080/BB-2.0.2/#/admin");
-         
-            
-            
-        } else if ("raAdmin".equalsIgnoreCase(userType) || "raUser".equalsIgnoreCase(userType)
-                || "raPractitioner".equalsIgnoreCase(userType) || "raReceiver".equalsIgnoreCase(userType)) {
-            // URL for RA users
-            driver.get("http://bvifsc-bb.radiant.digital:8080/BB-2.0.2/#/service-portals");
-           
-        } else {
-            System.out.println("Invalid user type: " + userType);
-            return;
-        }
-        
-        driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
-    }
+		// Set URL based on userType
+		if ("admin".equalsIgnoreCase(userType) || "rocaUser".equalsIgnoreCase(userType)) {
+			// URL for admin and rocaUser
+			driver.get("http://bvifsc-bb.radiant.digital:8080/BB-2.0.2/#/admin");
 
-    @AfterClass
-    public void tearDown() {
-        //driver.quit();
-    }
+		} else if ("raAdmin".equalsIgnoreCase(userType) || "raUser".equalsIgnoreCase(userType)
+				|| "raPractitioner".equalsIgnoreCase(userType) || "raReceiver".equalsIgnoreCase(userType)) {
+			// URL for RA users
+			driver.get("http://bvifsc-bb.radiant.digital:8080/BB-2.0.2/#/service-portals");
 
-    public String randomAlphbetics() {
-        return RandomStringUtils.randomAlphabetic(8);
-    }
+		} else {
+			System.out.println("Invalid user type: " + userType);
+			return;
+		}
 
-    public String randomNumbers() {
-        return RandomStringUtils.randomNumeric(5);
-    }
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+	}
 
-    public String randomAlphNumrics() {
-        return RandomStringUtils.randomAlphanumeric(5, 3);
-    }
+	@AfterClass
+	public void tearDown() {
+		// driver.quit();
+	}
 
-    public String captureScreen(String tname) throws IOException {
-        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+	public String randomAlphbetics() {
+		return RandomStringUtils.randomAlphabetic(8);
+	}
 
-        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
-        File targetFile = new File(targetFilePath);
-        sourceFile.renameTo(targetFile);
+	public String randomNumbers() {
+		return RandomStringUtils.randomNumeric(5);
+	}
 
-        return targetFilePath;
-    }
+	public String randomAlphNumrics() {
+		return RandomStringUtils.randomAlphanumeric(5, 3);
+	}
 
-    public void loginWithAdmin() {
-        LoginPage loginpage = new LoginPage(driver);
-        BlockBusterloginDetials blockbusterlogindetail = new BlockBusterloginDetials();
+	public String captureScreen(String tname) throws IOException {
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
-        String loginInfo = blockbusterlogindetail.LoginCombinations().get("admin");
-        String[] userDetalis = loginInfo.split("/");
-        loginpage.SetUserName(userDetalis[0]);
-        loginpage.SetPassword(userDetalis[1]);
-        loginpage.SetSingin();
-    }
+		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		File targetFile = new File(targetFilePath);
+		sourceFile.renameTo(targetFile);
 
-    public void loginWithRAUser() {
-        LoginPage loginpage = new LoginPage(driver);
-        BlockBusterloginDetials blockbusterlogindetail = new BlockBusterloginDetials();
+		return targetFilePath;
+	}
 
-        String loginInfo = blockbusterlogindetail.LoginCombinations().get("rocaUser");
-        String[] userDetalis = loginInfo.split("/");
+	public void loginWithAdmin() {
+		LoginPage loginpage = new LoginPage(driver);
+		BlockBusterloginDetials blockbusterlogindetail = new BlockBusterloginDetials();
 
-        loginpage.SetUserName(userDetalis[0]);
-        loginpage.SetPassword(userDetalis[1]);
-        loginpage.SetSingin();
-    }
-    
-    public void loginWithRaPractitioner() {
-    	LoginPage loginpage = new LoginPage(driver);
-        BlockBusterloginDetials blockbusterlogindetail = new BlockBusterloginDetials();
+		String loginInfo = blockbusterlogindetail.LoginCombinations().get("admin");
+		String[] userDetalis = loginInfo.split("/");
+		loginpage.SetUserName(userDetalis[0]);
+		loginpage.SetPassword(userDetalis[1]);
+		loginpage.SetSingin();
+	}
 
-        String loginInfo = blockbusterlogindetail.LoginCombinations().get("raPractitioner");
-        String[] userDetalis = loginInfo.split("/");
+	public void loginWithRAUser() {
+		LoginPage loginpage = new LoginPage(driver);
+		BlockBusterloginDetials blockbusterlogindetail = new BlockBusterloginDetials();
 
-        loginpage.SetUserName(userDetalis[0]);
-        loginpage.SetPassword(userDetalis[1]);
-        loginpage.SetSingin();
-    	
-    }
+		String loginInfo = blockbusterlogindetail.LoginCombinations().get("rocaUser");
+		String[] userDetalis = loginInfo.split("/");
+
+		loginpage.SetUserName(userDetalis[0]);
+		loginpage.SetPassword(userDetalis[1]);
+		loginpage.SetSingin();
+	}
+
+	public void loginWithRaPractitioner() {
+		LoginPage loginpage = new LoginPage(driver);
+		BlockBusterloginDetials blockbusterlogindetail = new BlockBusterloginDetials();
+
+		String loginInfo = blockbusterlogindetail.LoginCombinations().get("raPractitioner");
+		String[] userDetalis = loginInfo.split("/");
+
+		loginpage.SetUserName(userDetalis[0]);
+		loginpage.SetPassword(userDetalis[1]);
+		loginpage.SetSingin();
+
+	}
+
+	public void loginWithRaAdmin() {
+
+		LoginPage loginpage = new LoginPage(driver);
+		BlockBusterloginDetials blockbusterlogindetail = new BlockBusterloginDetials();
+
+		String loginInfo = blockbusterlogindetail.LoginCombinations().get("raAdmin");
+		String[] userDetalis = loginInfo.split("/");
+
+		loginpage.SetUserName(userDetalis[0]);
+		loginpage.SetPassword(userDetalis[1]);
+		loginpage.SetSingin();
+
+	}
 }

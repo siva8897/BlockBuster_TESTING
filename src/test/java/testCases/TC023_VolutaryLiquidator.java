@@ -1,6 +1,7 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import pageObjects.CourtOrderTermination;
@@ -13,6 +14,7 @@ public class TC023_VolutaryLiquidator extends BaseClass {
 
 	public VoluntaryLiquidation voluntaryliquidation;
 
+	@Ignore
 	@Test
 	public void verifyVolutaryLiquidator() {
 

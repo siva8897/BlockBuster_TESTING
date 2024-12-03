@@ -2,14 +2,14 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-29T18:41:29 IST" name="Master Suite" finished-at="2024-11-29T18:42:03 IST" duration-ms="34705">
+  <suite started-at="2024-12-03T17:46:53 IST" name="Master Suite" finished-at="2024-12-03T17:47:19 IST" duration-ms="26437">
     <groups>
     </groups>
-    <test started-at="2024-11-29T18:41:29 IST" name="Test" finished-at="2024-11-29T18:41:29 IST" duration-ms="142">
+    <test started-at="2024-12-03T17:46:53 IST" name="Test" finished-at="2024-12-03T17:46:53 IST" duration-ms="137">
     </test> <!-- Test -->
-    <test started-at="2024-11-29T18:41:30 IST" name="Test1" finished-at="2024-11-29T18:42:03 IST" duration-ms="33361">
-      <class name="testCases.TC023_VolutaryLiquidator">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC023_VolutaryLiquidator@5c1bd44c]" started-at="2024-11-29T18:41:30 IST" name="setup" finished-at="2024-11-29T18:41:57 IST" duration-ms="26932" status="PASS">
+    <test started-at="2024-12-03T17:46:54 IST" name="Test1" finished-at="2024-12-03T17:47:19 IST" duration-ms="25143">
+      <class name="testCases.TC025_RAAdminDashBorad">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC025_RAAdminDashBorad@6e57e95e]" started-at="2024-12-03T17:46:54 IST" name="setup" finished-at="2024-12-03T17:47:18 IST" duration-ms="24012" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyVolutaryLiquidator()[pri:0, instance:testCases.TC023_VolutaryLiquidator@5c1bd44c]" started-at="2024-11-29T18:41:57 IST" name="verifyVolutaryLiquidator" finished-at="2024-11-29T18:42:03 IST" duration-ms="6404" status="PASS">
+        <test-method signature="verifyRaAdmin()[pri:0, instance:testCases.TC025_RAAdminDashBorad@6e57e95e]" started-at="2024-12-03T17:47:18 IST" name="verifyRaAdmin" finished-at="2024-12-03T17:47:19 IST" duration-ms="1105" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyVolutaryLiquidator -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC023_VolutaryLiquidator@5c1bd44c]" started-at="2024-11-29T18:42:03 IST" name="tearDown" finished-at="2024-11-29T18:42:03 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyRaAdmin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC025_RAAdminDashBorad@6e57e95e]" started-at="2024-12-03T17:47:19 IST" name="tearDown" finished-at="2024-12-03T17:47:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC023_VolutaryLiquidator -->
+      </class> <!-- testCases.TC025_RAAdminDashBorad -->
     </test> <!-- Test1 -->
   </suite> <!-- Master Suite -->
 </testng-results>
