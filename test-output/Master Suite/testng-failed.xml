@@ -9,13 +9,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="userType" value="raPractitioner"/>
     <classes>
-      <class name="testCases.TC025_RAAdminDashBorad">
+      <class name="testCases.TC28_AccountDeposit">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyRaAdmin"/>
+          <include name="verifyAccountDeposti"/>
         </methods>
-      </class> <!-- testCases.TC025_RAAdminDashBorad -->
+      </class> <!-- testCases.TC28_AccountDeposit -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

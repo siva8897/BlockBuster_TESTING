@@ -2,14 +2,14 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-03T17:46:53 IST" name="Master Suite" finished-at="2024-12-03T17:47:19 IST" duration-ms="26437">
+  <suite started-at="2024-12-16T15:43:19 IST" name="Master Suite" finished-at="2024-12-16T15:44:11 IST" duration-ms="52548">
     <groups>
     </groups>
-    <test started-at="2024-12-03T17:46:53 IST" name="Test" finished-at="2024-12-03T17:46:53 IST" duration-ms="137">
+    <test started-at="2024-12-16T15:43:19 IST" name="Test" finished-at="2024-12-16T15:43:19 IST" duration-ms="152">
     </test> <!-- Test -->
-    <test started-at="2024-12-03T17:46:54 IST" name="Test1" finished-at="2024-12-03T17:47:19 IST" duration-ms="25143">
-      <class name="testCases.TC025_RAAdminDashBorad">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC025_RAAdminDashBorad@6e57e95e]" started-at="2024-12-03T17:46:54 IST" name="setup" finished-at="2024-12-03T17:47:18 IST" duration-ms="24012" status="PASS">
+    <test started-at="2024-12-16T15:43:20 IST" name="Test1" finished-at="2024-12-16T15:44:11 IST" duration-ms="51343">
+      <class name="testCases.TC28_AccountDeposit">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC28_AccountDeposit@7e094740]" started-at="2024-12-16T15:43:20 IST" name="setup" finished-at="2024-12-16T15:43:42 IST" duration-ms="22359" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRaAdmin()[pri:0, instance:testCases.TC025_RAAdminDashBorad@6e57e95e]" started-at="2024-12-03T17:47:18 IST" name="verifyRaAdmin" finished-at="2024-12-03T17:47:19 IST" duration-ms="1105" status="PASS">
+        <test-method signature="verifyAccountDeposti()[pri:0, instance:testCases.TC28_AccountDeposit@7e094740]" started-at="2024-12-16T15:43:42 IST" name="verifyAccountDeposti" finished-at="2024-12-16T15:44:11 IST" duration-ms="28955" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRaAdmin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC025_RAAdminDashBorad@6e57e95e]" started-at="2024-12-03T17:47:19 IST" name="tearDown" finished-at="2024-12-03T17:47:19 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyAccountDeposti -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC28_AccountDeposit@7e094740]" started-at="2024-12-16T15:44:11 IST" name="tearDown" finished-at="2024-12-16T15:44:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC025_RAAdminDashBorad -->
+      </class> <!-- testCases.TC28_AccountDeposit -->
     </test> <!-- Test1 -->
   </suite> <!-- Master Suite -->
 </testng-results>

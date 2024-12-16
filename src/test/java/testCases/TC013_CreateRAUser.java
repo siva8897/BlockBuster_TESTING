@@ -11,6 +11,7 @@ import pageObjects.RegisterMBC;
 
 public class TC013_CreateRAUser extends BaseClass{
     
+	
 	@Test
 	public void verify_CreateRAUser() {
 	
