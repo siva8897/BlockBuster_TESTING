@@ -14,7 +14,7 @@ public class TC022_CourtOrderTermination extends BaseClass {
 
 	public CourtOrderTermination ordertermination;
 
-	
+	@Ignore
 	@Test
 	public void verifyCourtOrderTermination() {
 

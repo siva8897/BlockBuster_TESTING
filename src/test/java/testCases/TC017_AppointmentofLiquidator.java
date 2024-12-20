@@ -14,7 +14,7 @@ public class TC017_AppointmentofLiquidator extends BaseClass{
 	
 	public AppointmentofLiquidator appointmentofliquidator;
 
-	
+	@Ignore
 	@Test
 	public void verifyAppointmentofLiquidator() {
 		

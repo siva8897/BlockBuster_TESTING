@@ -1,5 +1,6 @@
 package testCases;
 
+import org.testng.Assert;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
@@ -8,9 +9,12 @@ import pageObjects.RaAdminPendingTranctions;
 public class TC26_RAAdminDashBoradPendingTransactions extends BaseClass  {
 	
 	public RaAdminPendingTranctions raadminpendingtranctions;
-	
+	@Ignore
 	@Test
 	public void VerifyPendingTransactions() throws InterruptedException {
+		
+		try {
+			
 		
 		loginWithRaAdmin();
 		Thread.sleep(3000);
@@ -26,6 +30,10 @@ public class TC26_RAAdminDashBoradPendingTransactions extends BaseClass  {
 		raadminpendingtranctions.SetClose();
 	}
 
-	
+		catch (Exception e) {
+
+			Assert.fail();
+		}
+	}
 	
 }

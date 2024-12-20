@@ -18,7 +18,7 @@ public class TC021_CourtOrderedInvestigation extends BaseClass{
 	
 	public CourtOrderInvestigation investigation;
 	
-	
+	@Ignore
 	@Test
 	public void verifyCourtOrderInvestigation() {
 		

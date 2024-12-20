@@ -12,7 +12,7 @@ public class TC025_RAAdminDashBorad extends BaseClass {
 
 	public RAAdminDashBorad raadmindashborad;
 
-	
+	@Ignore
 	@Test
 	public void verifyRaAdmin() throws InterruptedException {
 

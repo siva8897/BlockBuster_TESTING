@@ -68,7 +68,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void tearDown() {
-		 driver.quit();
+		 //driver.quit();
 	}
 
 	public String randomAlphbetics() {
@@ -81,6 +81,11 @@ public class BaseClass {
 
 	public String randomAlphNumrics() {
 		return RandomStringUtils.randomAlphanumeric(5, 3);
+	}
+	
+	public String randomPhoneNumbers() {
+		
+	return	RandomStringUtils.randomNumeric(11);
 	}
 
 	public String captureScreen(String tname) throws IOException {
@@ -143,5 +148,20 @@ public class BaseClass {
 		loginpage.SetPassword(userDetalis[1]);
 		loginpage.SetSingin();
 
+	}
+	
+	public void loginWithRaReceiver() {
+		
+		LoginPage loginpage = new LoginPage(driver);
+		BlockBusterloginDetials blockbusterlogindetail = new BlockBusterloginDetials();
+
+		String loginInfo = blockbusterlogindetail.LoginCombinations().get("raReceiver");
+		String[] userDetalis = loginInfo.split("/");
+
+		loginpage.SetUserName(userDetalis[0]);
+		loginpage.SetPassword(userDetalis[1]);
+		loginpage.SetSingin();
+
+		
 	}
 }

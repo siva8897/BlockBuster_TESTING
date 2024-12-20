@@ -1,131 +1,25 @@
-2024-12-16 10:57:42 INFO  Utils:112 - [TestNG] Running:
+2024-12-20 11:45:34 INFO  Utils:112 - [TestNG] Running:
   D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
 
-2024-12-16 11:04:42 INFO  Utils:112 - [TestNG] Running:
+2024-12-20 12:01:01 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\Groups.xml
+
+2024-12-20 12:02:31 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\Groups.xml
+
+2024-12-20 12:06:13 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\Groups.xml
+
+2024-12-20 12:06:54 INFO  Utils:112 - [TestNG] Running:
   D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
 
-2024-12-16 11:07:22 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+2024-12-20 12:07:10 INFO  TC001_LoginPageTest:19 - ****Start in to LoginPage Execution*****
+2024-12-20 12:07:11 INFO  TC001_LoginPageTest:24 - User Successfully login Application
+2024-12-20 12:07:11 INFO  TC001_LoginPageTest:28 - Validating expeacted Message
+2024-12-20 12:07:11 INFO  TC001_LoginPageTest:50 - **** Finished TC01_LoginPageTest ***
+2024-12-20 12:11:09 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\Groups.xml
 
-2024-12-16 11:10:11 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 11:22:43 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\sl196\AppData\Local\Temp\testng-eclipse-1474150201\testng-customsuite.xml
-
-2024-12-16 11:29:27 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-2024-12-16 11:29:27 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@3228d990: 311 ms
-2024-12-16 11:29:27 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@f325091: 43 ms
-2024-12-16 11:29:27 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@58cd06cb: 9 ms
-2024-12-16 11:29:27 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@79ab3a71: 7 ms
-2024-12-16 11:29:27 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@39fc6b2c: 6 ms
-2024-12-16 11:29:27 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4837595f: 7 ms
-2024-12-16 11:29:27 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2bffa76d: 0 ms
-2024-12-16 11:29:42 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 11:37:03 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 11:39:27 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 11:44:48 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 11:53:13 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 11:55:00 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 11:59:39 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 12:04:48 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 12:06:13 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 12:36:25 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 12:47:50 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 13:56:21 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 14:09:54 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 14:11:43 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 14:13:17 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 14:15:03 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 14:38:32 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 14:44:21 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 14:51:38 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 15:12:00 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 15:30:44 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 15:32:34 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 15:35:49 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 15:37:40 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
-
-2024-12-16 15:43:19 INFO  Utils:112 - [TestNG] Running:
-  D:\BlockBusterAutomationworkspace\BlockBusterTesting\testng.xml
+2024-12-20 12:14:10 INFO  Utils:112 - [TestNG] Running:
+  D:\BlockBusterAutomationworkspace\BlockBusterTesting\Groups.xml
 

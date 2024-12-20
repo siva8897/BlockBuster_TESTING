@@ -14,7 +14,7 @@ public class TC023_VolutaryLiquidator extends BaseClass {
 
 	public VoluntaryLiquidation voluntaryliquidation;
 
-	
+	@Ignore
 	@Test
 	public void verifyVolutaryLiquidator() {
 

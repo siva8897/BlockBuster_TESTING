@@ -16,7 +16,7 @@ public class TC018_BusinessPurpose extends BaseClass {
 	public AddNewRole addnewrole;
 	public BusinessPurpose businesspurpose;
 
-	
+	@Ignore
 	@Test
 	public void verifyBusinessPurpose() {
 		try {

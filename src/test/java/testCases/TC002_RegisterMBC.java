@@ -21,6 +21,8 @@ public class TC002_RegisterMBC extends BaseClass{
 		//RegisterMBC Page
 		
 		try {
+			
+			logger.info("****Start in to RegisterMBC Page Execution*****");
 
 		loginWithAdmin();
 

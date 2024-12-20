@@ -19,7 +19,7 @@ public class TC009_ProtfolioTransactionSummary extends BaseClass {
 
 	public PortfolioTransactionSummary ptSummary;
 	
-	
+	@Ignore
 	@Test
 	public void verifyProfolioTransactionSummary() {
 

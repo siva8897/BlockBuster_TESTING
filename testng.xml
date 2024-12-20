@@ -36,8 +36,8 @@
 			<class name="testCases.TC019_BVISFC" />
 			<class name="testCases.TC020_FAQs" />
 			<class name="testCases.TC021_CourtOrderedInvestigation" />
-			<class name="testCases.TC024_DashBorad"/>
-			
+			<class name="testCases.TC024_DashBorad" />
+
 		</classes>
 
 
@@ -48,18 +48,19 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="userType" value="raPractitioner" />
 		<classes>
-		<class name="testCases.TC022_CourtOrderTermination" />
-		<class name="testCases.TC023_VolutaryLiquidator"/>
-		<class name="testCases.TC025_RAAdminDashBorad"/>
-		<class name="testCases.TC26_RAAdminDashBoradPendingTransactions"/>
-		<class name="testCases.TC27_RRAdminDashBoradRejectedTransations"/>
-		<class name="testCases.TC28_AccountDeposit"/>
-		
-		
-	</classes>
+			<class name="testCases.TC022_CourtOrderTermination" />
+			<class name="testCases.TC023_VolutaryLiquidator" />
+			<class name="testCases.TC025_RAAdminDashBorad" />
+			<class name="testCases.TC26_RAAdminDashBoradPendingTransactions" />
+			<class name="testCases.TC27_RRAdminDashBoradRejectedTransations" />
+			<class name="testCases.TC28_AccountDeposit" />
+			<class name="testCases.TC29_AnnualFeePayment" />
+			<class name="testCases.TC30_RegisteredAgent"/>
+
+
+		</classes>
 
 	</test>
-	
 
 
 	<!--

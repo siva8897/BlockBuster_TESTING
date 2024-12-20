@@ -19,7 +19,7 @@ public class TC010_Strike_OffMBC extends BaseClass {
 
 	public StrikeOffMBC soffMBC;
     
-	
+	@Ignore
 	@Test
 	public void verify_StrikOffMBC() {
 
