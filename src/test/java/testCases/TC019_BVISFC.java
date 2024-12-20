@@ -20,12 +20,13 @@ public RegisterMBC regMBC;
 
 public BVISFC bvisfc;
 
-@Ignore
+
 @Test
 	public void verifyBVISFC() {
 	
 	try {
 		
+		logger.info("****Start in to BVISFC Execution*****");
 	
 	 loginWithAdmin();
 	 

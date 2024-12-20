@@ -9,11 +9,13 @@ import pageObjects.DashBorad;
 public class TC024_DashBorad extends BaseClass{
 	public DashBorad dashborad;
 	
-	@Ignore
+	
 	@Test
 	public void VerifyDashBorad() {
 		
 		try {
+			
+			logger.info("****Start in to DashBorad page Execution*****");
 		loginWithAdmin();
 		
 		dashborad =new DashBorad(driver);

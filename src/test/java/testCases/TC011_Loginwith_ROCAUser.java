@@ -9,10 +9,12 @@ import pageObjects.LoginWithROCAUser;
 
 public class TC011_Loginwith_ROCAUser extends BaseClass {
 	
-	@Ignore
+	
 	@Test
 	public void Verify_Login_ROCAUser() {
 
+		logger.info("****Start in to Login With ROCAUser Execution*****");
+		
 		loginWithRAUser();
 
 		LoginWithROCAUser rocau = new LoginWithROCAUser(driver);

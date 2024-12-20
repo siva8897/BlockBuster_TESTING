@@ -19,11 +19,13 @@ public class TC010_Strike_OffMBC extends BaseClass {
 
 	public StrikeOffMBC soffMBC;
     
-	@Ignore
+	
 	@Test
 	public void verify_StrikOffMBC() {
 
 		try {
+			
+			logger.info("****Start in to Strike OffMBC Execution*****");
 		
 		loginWithAdmin();
 

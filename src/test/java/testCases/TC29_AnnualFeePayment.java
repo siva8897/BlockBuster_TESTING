@@ -1,5 +1,6 @@
 package testCases;
 
+import org.testng.Assert;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
@@ -12,10 +13,11 @@ public class TC29_AnnualFeePayment extends BaseClass{
 	public AccountDeposit accountdeposit;
 	
 	public AnnualFeePayment annualfeepayment;
-
-	@Ignore
 	@Test
 	public void verifyAnnualFeePayment() throws Exception {
+		try {
+			
+			logger.info("****Start in to Annual Fee Payment page Execution*****");
 		
 		loginWithRaAdmin();
 		Thread.sleep(3000);
@@ -45,5 +47,11 @@ public class TC29_AnnualFeePayment extends BaseClass{
 	    annualfeepayment.SetApply();
 	    
 	    annualfeepayment.SetSearchclick();  
+	}
+		
+		catch(Exception e) {
+			
+			Assert.fail();
+		}
 	}
 }

@@ -22,11 +22,13 @@ public class TC015_ModifyROCAUser extends BaseClass {
 
 	public ModifyROCAUser modifyROCAUser;
     
-	@Ignore
+	
 	@Test
 	public void VerifyModifyROCAUser() throws Exception {
 
 		try {
+			
+			logger.info("****Start in to Modify ROCAUser Execution*****");
 			loginWithAdmin();
 
 			registerMBC = new RegisterMBC(driver);

@@ -19,12 +19,13 @@ public class TC007_TransferShares extends BaseClass {
 
 	public Amendment amendment;
 
-   @Ignore
+   
 	@Test(groups="smoke")
 	public void verify_TransferShares() throws Exception {
 
 		try {
 
+			logger.info("****Start in to TransferShares Execution*****");
 			loginWithAdmin();
 
 			registermbc = new RegisterMBC(driver);

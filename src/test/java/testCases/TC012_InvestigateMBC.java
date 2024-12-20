@@ -15,12 +15,13 @@ public class TC012_InvestigateMBC extends BaseClass {
 
 	public InvestigateMBC investigate;
 
-	@Ignore
+	
 	@Test
 	public void Verify_TransferShares() {
 
 		try {
 
+			logger.info("****Start in to InvestigateMBC Execution*****");
 			loginWithAdmin();
 
 			RegisterMBC regMBC = new RegisterMBC(driver);

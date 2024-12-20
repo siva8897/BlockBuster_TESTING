@@ -11,11 +11,13 @@ import pageObjects.RaAdminRejectedTransations;
 public class  TC27_RRAdminDashBoradRejectedTransations extends BaseClass {
 
 	public 	RaAdminRejectedTransations raadminrejectedtransations;
-	@Ignore
+	
 	@Test
 	public void VerifyRejectedTransations() throws InterruptedException {
 		
 		try {
+			
+			logger.info("****Start in to Rejected Transations Execution*****");
 		
 		loginWithRaAdmin();
 		Thread.sleep(3000);

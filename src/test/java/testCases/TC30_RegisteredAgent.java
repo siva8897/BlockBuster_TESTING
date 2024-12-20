@@ -15,6 +15,7 @@ public class TC30_RegisteredAgent extends BaseClass {
 
 		try {
 
+			logger.info("****Start in to Registerd Agent Execution*****");
 			loginWithRaReceiver();
 
 			registeredagent = new RegisteredAgent(driver);

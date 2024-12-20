@@ -14,11 +14,13 @@ public class TC022_CourtOrderTermination extends BaseClass {
 
 	public CourtOrderTermination ordertermination;
 
-	@Ignore
+	
 	@Test
 	public void verifyCourtOrderTermination() {
 
 		try {
+			
+			logger.info("****Start in to CourtOder Termination Execution*****");
 		loginWithRaPractitioner();
 
 		RegisterMBC regMBC = new RegisterMBC(driver);

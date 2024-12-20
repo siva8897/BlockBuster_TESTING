@@ -12,12 +12,14 @@ public class TC025_RAAdminDashBorad extends BaseClass {
 
 	public RAAdminDashBorad raadmindashborad;
 
-	@Ignore
+	
 	@Test
 	public void verifyRaAdmin() throws InterruptedException {
 
 		try {
 
+			logger.info("****Start in to RAAdmin DashBorad page Execution*****");
+			
 			loginWithRaAdmin();
 
 			Thread.sleep(3000);

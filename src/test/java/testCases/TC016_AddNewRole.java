@@ -16,11 +16,13 @@ public class TC016_AddNewRole extends BaseClass {
 
 	public AddNewRole addnewrole;
    
-	@Ignore
+	
 	@Test
 	public void VerifyAddNewRole() {
 
 		try {
+			
+			logger.info("****Start in to Add New Role Execution*****");
 			loginWithAdmin();
 
 			regMBC = new RegisterMBC(driver);

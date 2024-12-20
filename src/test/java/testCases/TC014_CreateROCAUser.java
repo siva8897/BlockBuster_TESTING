@@ -25,12 +25,13 @@ public class TC014_CreateROCAUser extends BaseClass {
 
 	public CreateROCAUser createrocauser;
 
-	@Ignore
+	
 	@Test
 	public void verifyCreateROCAUser() {
 
 		try {
 
+			logger.info("****Start in to Create ROCAUser Execution*****");
 			loginWithAdmin();
 
 			registerMBC = new RegisterMBC(driver);

@@ -18,9 +18,11 @@ public class TC021_CourtOrderedInvestigation extends BaseClass{
 	
 	public CourtOrderInvestigation investigation;
 	
-	@Ignore
+	
 	@Test
 	public void verifyCourtOrderInvestigation() {
+		
+		logger.info("****Start in to CourtOrder Investigation Execution*****");
 		
 		loginWithAdmin();
 		

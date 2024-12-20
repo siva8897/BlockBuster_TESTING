@@ -18,12 +18,13 @@ public class TC020_FAQs extends BaseClass {
 	public BVISFC bvisfc;
 	
 	public FAQs faqs;
-@Ignore
+
 @Test
 	public void verifyFAQs() {
 
 	try {
 		
+		logger.info("****Start in to FAQS Page Execution*****");
 	
 		loginWithAdmin();
 

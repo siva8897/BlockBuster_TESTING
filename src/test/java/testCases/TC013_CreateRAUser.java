@@ -11,12 +11,13 @@ import pageObjects.RegisterMBC;
 
 public class TC013_CreateRAUser extends BaseClass{
     
-	@Ignore
+	
 	@Test
 	public void verify_CreateRAUser() {
 	
 	try {
 		
+		logger.info("****Start in to CreateRAUser Execution*****");
 	loginWithAdmin();
 	
 	RegisterMBC registerMBC = new RegisterMBC(driver);

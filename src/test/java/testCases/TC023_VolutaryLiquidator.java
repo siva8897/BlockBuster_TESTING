@@ -14,11 +14,13 @@ public class TC023_VolutaryLiquidator extends BaseClass {
 
 	public VoluntaryLiquidation voluntaryliquidation;
 
-	@Ignore
+	
 	@Test
 	public void verifyVolutaryLiquidator() {
 
 		try {
+			
+			logger.info("****Start in to Volutery Liquidator Execution*****");
 		loginWithRaPractitioner();
 
 		loginWithRaPractitioner();

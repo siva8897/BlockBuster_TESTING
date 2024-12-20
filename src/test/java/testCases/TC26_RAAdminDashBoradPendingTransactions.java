@@ -9,12 +9,13 @@ import pageObjects.RaAdminPendingTranctions;
 public class TC26_RAAdminDashBoradPendingTransactions extends BaseClass  {
 	
 	public RaAdminPendingTranctions raadminpendingtranctions;
-	@Ignore
+	
 	@Test
 	public void VerifyPendingTransactions() throws InterruptedException {
 		
 		try {
-			
+		
+			logger.info("****Start in to RaAdmin Pending Trancations Execution*****");
 		
 		loginWithRaAdmin();
 		Thread.sleep(3000);

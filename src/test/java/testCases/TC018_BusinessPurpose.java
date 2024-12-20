@@ -16,11 +16,12 @@ public class TC018_BusinessPurpose extends BaseClass {
 	public AddNewRole addnewrole;
 	public BusinessPurpose businesspurpose;
 
-	@Ignore
+	
 	@Test
 	public void verifyBusinessPurpose() {
 		try {
 			
+			logger.info("****Start in to Business Purpose Execution*****");
 			loginWithAdmin();
 
 			registermbc = new RegisterMBC(driver);

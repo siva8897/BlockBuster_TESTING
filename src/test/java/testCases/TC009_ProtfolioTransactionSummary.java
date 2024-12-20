@@ -19,11 +19,13 @@ public class TC009_ProtfolioTransactionSummary extends BaseClass {
 
 	public PortfolioTransactionSummary ptSummary;
 	
-	@Ignore
+	
 	@Test
 	public void verifyProfolioTransactionSummary() {
 
 		try {
+			
+			logger.info("****Start in to Protfolio Transaction Summary Execution*****");
 	
 		loginWithAdmin();
 
